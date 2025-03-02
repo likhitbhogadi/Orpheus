@@ -16,7 +16,7 @@ function App() {
     // Simulate loading for 2 seconds (1 second longer as requested)
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -28,8 +28,8 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       <Navigation isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
-      <main>
-        <Hero />
+      <Hero />
+      <main className="max-w-screen-xl mx-auto">
         <About />
         <Events />
         <Team />

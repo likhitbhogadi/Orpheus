@@ -1,11 +1,14 @@
-import React from 'react';
+// import React from 'react';
+import mun3 from "./../assets/mun3.jpg";
 
 const Hero = () => {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&q=80"
+          src={mun3}
+          // src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&q=80"
+          
           alt="Students speaking"
           className="w-full h-full object-cover"
         />
