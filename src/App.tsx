@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Menu, X, Mail, Facebook, Twitter, Instagram, Linkedin as LinkedIn, ArrowRight } from 'lucide-react';
+import { useEffect, useState } from 'react';
+// import { Menu, X, Mail, Facebook, Twitter, Instagram, Linkedin as LinkedIn, ArrowRight } from 'lucide-react';
 import LoadingScreen from './components/LoadingScreen';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
